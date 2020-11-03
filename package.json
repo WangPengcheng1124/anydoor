@@ -1,0 +1,30 @@
+{
+  "name": "anydoorwpc",
+  "version": "1.0.0",
+  "description": "node test",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor": "bin/anydoor"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WangPengcheng1124/anydoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WangPengcheng1124/anydoor/issues"
+  },
+  "homepage": "https://github.com/WangPengcheng1124/anydoor#readme",
+  "devDependencies": {
+    "chalk": "^4.1.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "yargs": "^16.1.0"
+  }
+}
