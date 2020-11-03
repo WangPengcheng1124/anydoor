@@ -1,6 +1,6 @@
 {
   "name": "wpcanydoor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node test",
   "main": "src/app.js",
   "bin": {
@@ -20,10 +20,9 @@
     "url": "https://github.com/WangPengcheng1124/anydoor/issues"
   },
   "homepage": "https://github.com/WangPengcheng1124/anydoor#readme",
-  "devDependencies": {
-    "chalk": "^4.1.0"
-  },
+  "devDependencies": {},
   "dependencies": {
+    "chalk": "^4.1.0",
     "handlebars": "^4.7.6",
     "yargs": "^16.1.0"
   }
